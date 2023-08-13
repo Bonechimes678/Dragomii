@@ -1,0 +1,175 @@
+body{
+	background-image: url(/WildspireWasteBackbannerOpti.jpg);
+    background-color: #B9AC9C;
+    background-position: left top;
+        
+}
+/*AGG OK SO IMPORTANT YOU MUST ADD THE IMPORTANT RULE IF THE SPACE COMES BACK*/
+body{
+    margin: 0!important;
+    padding: 0!important;
+  }
+
+  footer{
+	background-color: #848484;
+	color: #fff;
+    margin: 0.01 auto;
+}
+
+img.responsive{
+		max-width: 100%;
+		height: auto;
+	}
+
+#wrapper{
+	width:100%;
+	max-width:1920px;
+	min-width:300px;
+	background-color:#6b6b6b;
+	margin: 0 auto;
+}
+
+#wrapper a{
+    color: #6B7988;
+}
+
+#mainarticle{
+	width:100%;
+	max-width:1920px;
+	min-width:00px;
+	background-color: #D1C4B5;
+	margin: 0 auto;
+    padding: 0.01em;
+    /*Padding if it messes up*/
+}
+
+#mainarticle h1, h2, h3{
+    text-align: center;
+}
+
+#masthead{
+		box-sizing: border-box;
+        height: 150px;
+		padding: 0em;
+		position: relative;
+		background-color: rgb(177, 177, 177);
+		background-image: url(/violence_masthead.png);
+        background-repeat:no-repeat;
+        background-position: left top;
+        background-size: auto 300px;
+	}
+
+#masthead h1{
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0 5px #fff;
+    padding: .5em;
+    margin: 0 .5em;
+    text-align: center;
+}
+
+header, article, footer{
+	padding:1.5em;
+	}
+
+#col1, #col2{
+    box-sizing: border-box;
+    justify-content: space-between;
+    }
+
+hr{
+    height: 1px;
+        background-color: #2F2A25;
+        border: none;
+}
+
+p, h3, h1, h2{
+    color:#2F2A25;
+    margin: 0.3em;
+}
+
+#greetingimage{
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 500px;
+    margin: auto;
+     
+}
+
+@media screen and (max-width: 1920px){
+        #masthead {
+            background-position: left top;
+    }
+        }
+        
+	@media screen and (min-width:512px){
+
+        #masthead{
+            height: 300px;
+            background-size: auto 1850px;
+            background-position: 10% top;
+            background-position-y: 22%;
+            
+        }
+
+        #wrapper a{
+            color: #6B7988;
+        }
+
+        .mainheading{
+            margin: .5em 0;
+            font-size: 2.2em;
+        }
+
+        #mainarticle{
+            max-width: 100%;
+            max-width:1170px;
+	        min-width:300px;
+        }
+
+        #overviewimage{
+            max-width: 300px;
+            max-width: 100%;
+        }
+
+        #col1, #col2{
+            flex-basis: 50%;
+        }
+        #nav1 ul{
+            display: flex;
+            height: 40px;
+            align-items: center;
+        }
+        #nav1{
+            padding: 1em 0;
+            position:sticky;
+            top: 0;
+        }
+
+        #nav1{
+            
+            background-size: auto 300px;
+            background-position: 50% top;
+        }
+
+        #nav1 ul li a{
+            font-size: 1.3em;
+            padding: 1rem;
+        }
+        
+        #masthead h1{
+            font-size: 3em;
+            margin: 0 3px; /*originally 50*/
+            padding: 1.5em;
+        }
+
+        #col1{
+            display: flex;
+            
+        }
+
+        #col2{
+            display: flex;
+        }
+    }
+	
+	

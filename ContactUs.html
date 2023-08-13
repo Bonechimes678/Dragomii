@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="MainStyle.css">
+   <link rel="stylesheet" type="text/css" href="NavStyle.css">
+<style>
+#ContactForm{
+	width:100%;
+	max-width:1170px;
+	min-width:300px;
+	background-color: #dde2f3;
+	margin: 0 auto;
+}
+
+#ContactForm{
+    padding:0.01em;
+}
+/*Form fitting*/
+
+</style>
+
+<body>
+<div id="wrapper">
+    <header id="masthead">
+        <h1>The Better Monster Hunter Movie</h1>
+        <h2><a href="HomePage.html">Home</a></h4>
+    </header>
+</div>
+
+<nav id="nav1">
+    <ul>
+        <li><a href="MovieCompare.html">Movie Comparisons</a></li>
+        <li><a href="LiveActIssues.html">Issues with the live action</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+        <li><a href="MonsterHistory.html">History of Monster Hunter</a></li>
+    </ul>
+    </nav>
+
+    <div id="ContactForm">
+        <h2 style="text-align: center;">Contact using the form below</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam condimentum dui nisl, fringilla fermentum mi luctus 
+            facilisis. Mauris sed scelerisque purus. Pellentesque id porta sapien. Integer eu posuere arcu. Nunc dapibus enim eu
+             felis lacinia, eget ultrices ipsum dignissim. Fusce maximus condimentum dui, aliquam volutpat est feugiat non. Nulla
+              pretium enim quis erat faucibus euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per 
+              inceptos himenaeos. Donec fermentum id purus vel convallis.</p>
+        <form method="post" action="mailto:cephadrome2@gmail.com" enctype="text/plain" onsubmit="window.alert('Message Sent')"></form>
+        <fieldset id="messenger_info">
+            <ul>
+                <li><label for="messenger-name">Your Name:</label>
+                <input type="text" name="messenger" id="messenger-name" class="textinput" maxlength="40">
+            </li>
+            <br>
+            <li><label for="messenger-email">Email:</label>
+                <input type="email" name="email" id="messenger-email" class="textinput" maxlength="60">
+            </li>
+            
+        </ul>
+        <br>
+            <textarea name="message" cols="55" rows="10"> </textarea>
+
+            <input type="hidden" name="success" value="success.htm">
+            <br>
+            <input type="submit" value="send">
+            <input type="reset" value="clear">
+        </fieldset>
+
+	
+    </div>
+
+
+
+</body>
