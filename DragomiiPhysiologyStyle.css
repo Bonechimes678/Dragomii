@@ -48,12 +48,12 @@ img.responsive{
 }
 
 #masthead{
-	box-sizing: border-box;
+		box-sizing: border-box;
         height: 150px;
-	padding: 0em;
-	position: relative;
-	background-color: rgb(177, 177, 177);
-	background-image: url("HomeImg/violence_masthead.png");
+		padding: 0em;
+		position: relative;
+		background-color: rgb(177, 177, 177);
+		background-image: url(/HomeImg/violence_masthead.png);
         background-repeat:no-repeat;
         background-position: left top;
         background-size: auto 300px;
@@ -78,13 +78,17 @@ header, article, footer{
 
 hr{
     height: 1px;
-        background-color: #2F2A25;
+        background-color:rgba(47, 42, 37, 0.5);
         border: none;
 }
 
-p, h3, h1, h2{
+p, h3, h1, h2, h4{
     color:#2F2A25;
     margin: 0.3em;
+}
+
+li, dd{
+    color: #2F2A25;
 }
 
 #greetingimage{
@@ -93,6 +97,82 @@ p, h3, h1, h2{
     max-height: 500px;
     margin: auto;
      
+}
+
+#overviewpar{
+    text-align: center;
+}
+
+#heightover{
+    text-align: center;
+}
+
+#faceover{
+    text-align: center;
+}
+
+#eyes{
+    text-align: center;
+}
+
+#bones{
+    text-align: center;
+}
+
+#muscles{
+    text-align: center;
+}
+
+#smart{
+    text-align: center;
+}
+
+#sex{
+    text-align: center;
+}
+
+div.spoil{
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+div.spoil img{
+    vertical-align: bottom;
+    filter: blur(20px);
+    transition: 0.3s;
+}
+
+.spoil-button{
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 3rem;
+	line-height: 3rem;
+	width: 50%;
+	padding: 0 1rem;
+	font-size: 1rem;
+	margin: auto;
+	background-color:rgba(136, 124, 126, 0.9);
+	color: #2F2A25;
+	text-align: center;
+	cursor: pointer;
+}
+
+div.spoil input {
+    width: 0;
+    height: 0;
+}
+
+div.spoil input:checked ~ img{
+    filter: none;
+}
+
+div.spoil input:checked, div.spoil input:checked ~ label{
+    display: none;
 }
 
 @media screen and (max-width: 1920px){
@@ -131,9 +211,6 @@ p, h3, h1, h2{
             max-width: 100%;
         }
 
-        #col1, #col2{
-            flex-basis: 50%;
-        }
         #nav1 ul{
             display: flex;
             height: 40px;
@@ -169,6 +246,29 @@ p, h3, h1, h2{
 
         #col2{
             display: flex;
+        }
+
+        #gaitimage{
+            height: 500px;
+            width: auto;
+            height: auto;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column{
+            width: 100%;
+            flex: 50%;
+        }
+
+        #headshotteeth{
+            height: 500px;
+        }
+
+        #tongueimg{
+            height: 500px;
         }
     }
 	
