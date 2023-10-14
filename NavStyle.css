@@ -1,5 +1,7 @@
 /* Nav Styles Only*/
 @charset "UTF-8";
+@charset "UTF-8";
+
 .topnav {
     overflow: hidden;
     background-color: rgba(136, 124, 126, 0.9);
@@ -52,7 +54,29 @@
       border: 1px solid #b4a1a1;
     }
   }
-/*---------------------------*/
+/*-----------------------------------------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #8D8181;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #584b4b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bba8a8;
+}
+
+/*----------------------------------------------*/
 #nav1{	
     background-color:rgba(136, 124, 126, 0.9);
     z-index: 1000;
